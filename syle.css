@@ -1,0 +1,92 @@
+:root{
+    --button:#18C7DB;
+    --background:#003249;
+    --text:#fff;
+    --date:##80CED7;
+    --infoText:#007EA7;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'rubik',sans-serif;
+}
+header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: 310px;
+    text-align: center;
+    background:linear-gradient(228.08deg, #003249 -1.03%, #007EA7 100%);
+}
+ header img{  /*Se pierden los estilos de header y se tiene que volver a agregar*/
+
+    width:179px;
+    height: 58px;
+    margin-top: 60px;
+    align-self: center;
+}
+.header--title-container{
+    width:90%; /*Se incluye el porcentaje de la pantalla*/
+    min-width: 288px;
+    max-width: 900px;
+    height: 218px;
+    margin-top: 17px;
+    text-align: center;
+    align-self: center;
+}
+.header--title-container h1{
+    font-size:2rem ;
+    font-weight: 600;
+    line-height: 2.6rem;
+    color:#fff;
+}
+.header--title-container p{
+    margin-top: 8px;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    text-align: center;
+    color:#DAF6FF;
+}
+.header--title-container .header--button{ /*Ser muy especificos*/
+    position: absolute;
+    left:0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top:255px;
+    display: block;
+    margin-top: 30px;
+    padding: 15px; /*le agrega espacio para agregar estilos*/
+    width: 229px;
+    height: 48px;
+    background-color: var(--button);
+    box-shadow:0 4px 8px rgba(89,73,30,0.16) ;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+}
+.header--button span{
+    display: inline-block;
+    width:19px;
+    height: 9.5px;
+    margin-left: 15px;
+    background-image: url("./img/lookdownarrow.svg");
+}
+/****************  Exchange ***********************/
+main{
+    width:100%;
+    height: auto;
+    background-color: var(--background);
+}
