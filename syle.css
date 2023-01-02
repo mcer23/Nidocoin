@@ -79,8 +79,8 @@ header{
 }
 .header--button span{
     display: inline-block;
-    width:19px;
-    height: 9.5px;
+    width:21px;
+    height: 11px;
     margin-left: 15px;
     background-image: url("./img/lookdownarrow.svg");
 }
@@ -89,4 +89,44 @@ main{
     width:100%;
     height: auto;
     background-color: var(--background);
+}
+.main_exchange--container{
+    width:100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 33px;
+    text-align: center;
+}
+.main_exchange--container-title{
+    width:90%;
+    min-width: 288px;
+    max-width: 900px;
+    margin:0;
+}
+.main_exchange--container .backgroundImg{
+    width:320px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-image: url("./img/coins.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.main_exchange--container h2{
+    margin-bottom: 30px;
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 2.6rem;
+    color:#fff;
+    text-align: center;
+}
+.main_exchange--container p{
+    margin-bottom: 30px;
+
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    color:#fff;
+    text-align: center;
 }
