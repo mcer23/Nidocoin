@@ -250,3 +250,13 @@ main{
     text-align: left;
     color:var(--button);
 }
+.currency_table--date{
+    width:190px;
+    height: 30px;
+    margin:0 auto;
+    padding: 8px;
+    color:#CCDBDC;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
