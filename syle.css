@@ -102,6 +102,8 @@ main{
     min-width: 288px;
     max-width: 900px;
     margin:0;
+    text-align: center;
+    margin: 0 auto;
 }
 .main_exchange--container .backgroundImg{
     width:320px;
@@ -130,6 +132,8 @@ main{
     color:#fff;
     text-align: center;
 }
+
+/* coins */
 .main-currency-table{
     width:70%;
     min-width: 235px;
@@ -229,4 +233,20 @@ main{
     background-image: url(./img/tabla/stellar.png);
     background-position: center;
     background-repeat: no-repeat;
+}
+/* comission */
+.main-currency-table-com{
+    width:70%;
+    min-width: 235px;
+    max-width: 500px;
+    height: 360px;
+    margin:0 auto;  /* para centrar la tabla */
+}
+ .main-currency-table-com .currency-title-com{   /*Es para ser muy especificos*/
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    text-align: left;
+    color:var(--button);
 }
