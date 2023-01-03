@@ -108,7 +108,7 @@ main{
 .main_exchange--container .backgroundImg{
     width:320px;
     height: 200px;
-    margin: 0 auto;
+    margin: 0 auto; /*Primero va este margin*/
     margin-bottom: 50px;
     background-image: url("./img/coins.png");
     background-size: cover;
@@ -259,4 +259,42 @@ main{
     text-align: center;
     font-size: 1.2rem;
     line-height: 1.8rem;
+}
+/* Beneficios */
+.main-product--detail{
+    position: relative;
+    width:100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+}
+.product-detail--logo{
+    position:absolute; /*Necesita tener un padre relative*/
+    width:58px;
+    height: 58px;
+    top:-10px;
+    left: calc(50% - 20px);
+    background-image: url(./img/logo-icon.svg);
+}
+.product-detail--title{
+    width:90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;    
+    margin-top: 38px;
+    text-align: center;
+
+}
+.product-detail--title h2{
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-weight: 600;
+    color:#fff;
+    margin-bottom: 25px;
+}
+.product-detail--title p{
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color:#CCDBDC;
+    margin-bottom: 25px;
 }
