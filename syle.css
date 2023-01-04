@@ -298,3 +298,67 @@ main{
     color:#CCDBDC;
     margin-bottom: 25px;
 }
+/* Beneficios */
+.product-detail--card{
+    width:90%;
+    min-width: 280px;
+    max-width: 400px;
+    height: 150px;
+    margin: 15px auto;
+    padding:15px;
+    background-color: #011620;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.product-detail--card .clock{
+    display: inline-block;
+    width:23px;
+    height: 23px;
+    margin-bottom: 20px;
+    background-image: url(./img/beneficios/clock.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product--card-title{
+    width:228px;
+    margin-left: 35px;
+    margin-bottom: 20px;
+    font-size:1.8rem ;
+    line-height: 1.8rem;
+    font-weight: 600;
+    text-align: left;
+    color: #fff;
+}
+.product--card-body{
+    margin-left: 15px;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color:#CAC9C9;
+    text-align: left;
+}
+.product-detail--card  .eye{
+    display: inline-block;
+    width:23px;
+    height: 23px;
+    margin-bottom: 20px;
+    background-image: url(./img/beneficios/eye.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product-detail--card  .dollar-sign{
+    display: inline-block;
+    width:23px;
+    height: 23px;
+    margin-bottom: 20px;
+    background-image: url(./img/beneficios/dollar.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product-detail--card  .check{
+    display: inline-block;
+    width:23px;
+    height: 23px;
+    margin-bottom: 20px;
+    background-image: url(./img/beneficios/check.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
