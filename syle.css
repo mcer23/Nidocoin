@@ -185,7 +185,7 @@ main{
     width:15px;
     height: 15px;
     margin-left: 15px;
-    background-image: url(./img/tabla/down.png);
+    background-image: url("./img/tabla/down.png");
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -194,7 +194,7 @@ main{
     width:15px;
     height: 15px;
     margin-left: 15px;
-    background-image: url(./img/tabla/up.png);
+    background-image: url("./img/tabla/up.png");
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -203,7 +203,7 @@ main{
     width:15px;
     height: 15px;
     margin-right: 15px;
-    background-image: url(./img/tabla/bitcoin.png);
+    background-image: url("./img/tabla/bitcoin.png");
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -212,7 +212,7 @@ main{
     width:15px;
     height: 15px;
     margin-right: 15px;
-    background-image: url(./img/tabla/ethereum.png);
+    background-image: url("./img/tabla/ethereum.png");
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -221,7 +221,7 @@ main{
     width:15px;
     height: 15px;
     margin-right: 15px;
-    background-image: url(./img/tabla/ripple.png);
+    background-image: url("./img/tabla/ripple.png");
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -230,7 +230,7 @@ main{
     width:15px;
     height: 15px;
     margin-right: 15px;
-    background-image: url(./img/tabla/stellar.png);
+    background-image: url("./img/tabla/stellar.png");
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -274,7 +274,7 @@ main{
     height: 58px;
     top:-10px;
     left: calc(50% - 20px);
-    background-image: url(./img/logo-icon.svg);
+    background-image: url("./img/logo-icon.svg");
 }
 .product-detail--title{
     width:90%;
@@ -301,9 +301,9 @@ main{
 /* Beneficios */
 .product-detail--card{
     width:90%;
-    min-width: 280px;
+    min-width: 284px;
     max-width: 400px;
-    height: 150px;
+    height: 140px;
     margin: 15px auto;
     padding:15px;
     background-color: #011620;
@@ -314,7 +314,7 @@ main{
     width:23px;
     height: 23px;
     margin-bottom: 20px;
-    background-image: url(./img/beneficios/clock.png);
+    background-image: url("./img/beneficios/clock.png");
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -349,7 +349,7 @@ main{
     width:23px;
     height: 23px;
     margin-bottom: 20px;
-    background-image: url(./img/beneficios/dollar.png);
+    background-image: url("./img/beneficios/dollar.png");
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -358,7 +358,26 @@ main{
     width:23px;
     height: 23px;
     margin-bottom: 20px;
-    background-image: url(./img/beneficios/check.png);
+    background-image: url("./img/beneficios/check.png");
     background-position: center;
     background-repeat: no-repeat;
 }
+/* Planes img */
+.bitcoin-img-container{
+    width:100%;
+    min-width: 320px;
+    height: 50vh;   /*Se expande de acuerdo a la pagina*/
+    background-image: url("./img/bitcoin.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bitcoin-img-container h2{
+    padding-top: 26px;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    text-align: center;
+    font-weight: 600;
+    color:#fff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+/* Planes*/
