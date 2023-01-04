@@ -381,3 +381,30 @@ main{
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
 /* Planes*/
+.main-plans-conteiner{
+    width:100%;
+    min-width: 320px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+.plans--title{
+    width:90%;
+    min-width:288px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 13px;
+}
+.plans--title h2{
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-weight: 600;
+    text-align: center;
+    color:#fff;
+}
+.plans--title p{
+    padding-top: 22px;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    text-align: center;
+    color:#fff;
+}
