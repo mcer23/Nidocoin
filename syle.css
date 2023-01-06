@@ -410,7 +410,7 @@ main{
 }
 .plans-container-card{
      position: relative; /*Para que quede flotando */
-    width:70%;
+    width:65%;
     min-width:230px;
     max-width:300px;
     height: 250px;
@@ -421,3 +421,72 @@ main{
     box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
 }
 /* Planes text*/
+.recommended{
+    position: absolute;
+    width:103px;
+    height: 31px;
+    padding: 8px;
+    top:-15px;
+    left: calc(50% - 50px); /* Se tiene que dejar el espacio */
+    background-color: var(--button);
+    border-radius: 8px;
+    color:#fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    text-align: center;
+}
+.plan-card--title{
+    padding-top: 30px;
+    left: calc(50% - 50px); 
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.8rem;
+    text-align: center;
+    color:var(--background);
+}
+
+.plan-card--price {
+    padding-top: 15px;
+    font-size: 5.2rem;
+    font-weight: 600;
+    line-height: 6.3rem;
+    text-align: center;
+    color:var(--background);
+}
+.plan-card--price span{
+    padding-top: 15px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.8rem;
+    text-align: center;
+    color:var(--background);
+}
+.plan-card--saving{
+    padding-top: 15px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: var(--date);
+}
+.plan-card-ca{
+    min-width: 151px;
+    height: 48px;
+    margin-top: 15px;
+    border: none;
+    background-color: var(--button);
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.8rem;
+    color:#fff;
+}
+/* .plan-card-ca span{
+    display: inline-block;
+    width:24px;
+    height: 20px;
+    background-image: url('./img/rigthArrow.svg');
+    background-position: cover;
+    background-repeat: no-repeat;
+    vertical-align: text-bottom;
+    padding-right: 20px;
+} */
